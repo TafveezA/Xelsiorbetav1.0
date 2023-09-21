@@ -10,13 +10,13 @@ const LandingPage = () => {
       />
       <a className="[text-decoration:none] absolute top-[41px] left-[40px] w-[54px] h-[54px] text-[inherit]">
         <img
-          className="absolute top-[0px] left-[0px] rounded-[50%] w-[54px] h-[54px] object-cover"
+          className="absolute top-[5px] left-[0px] rounded-[50%] w-[54px] h-[54px] object-cover"
           id="logo"
           alt=""
           src="/ellipse-1@2x.png"
         />
-        <div className="absolute top-[9.7px] left-[44.62px] rounded-[50%] bg-white w-[8.73px] h-[8.73px]" />
-        <b className="absolute top-[11.64px] left-[11.96px] tracking-[-1.12px] leading-[72.25px]">
+        <div className="absolute top-[1.7px] left-[24.62px] rounded-[50%] bg-white w-[8.73px] h-[8.73px]" />
+        <b className="absolute top-[0px] left-[11.96px] tracking-[-1.12px] leading-[72.25px]">
           X
         </b>
       </a>
@@ -26,16 +26,17 @@ const LandingPage = () => {
         <div className="absolute top-[0px] left-[445px]">Earn</div>
         <div className="absolute top-[0px] left-[0px]">Trade</div>
         <div className="absolute top-[0px] left-[110.83px]">Swap</div>
+        
       </div>
       <button className="cursor-pointer [border:none] p-0 bg-white absolute top-[38px] left-[1297px] rounded-[19.53px] w-[166px] h-[44.64px] overflow-hidden">
-        <b className="absolute top-[16.74px] left-[15.34px] text-[16.86px] tracking-[0.77px] leading-[36.79px] font-space-grotesk text-black text-left">
+        <b className="absolute top-[8.74px] left-[15.34px] text-[16.86px] tracking-[0.77px] leading-[36.79px] font-space-grotesk text-black text-left">
           Connect Wallet
         </b>
       </button>
       <div className="absolute top-[310px] left-[94px] w-[520px] h-[348.64px] text-[110.12px]">
         <div className="absolute top-[0px] left-[16px] w-[488px] h-[164px]">
           <div className="absolute top-[0px] left-[0px] w-[488px] h-[131px]">
-            <b className="absolute top-[32px] left-[31px] tracking-[-2.56px] leading-[165.17px]">
+            <b className="absolute top-[0px] left-[31px] tracking-[-2.56px] leading-[165.17px]">
               Xelsior
             </b>
             <img
@@ -44,16 +45,16 @@ const LandingPage = () => {
               src="/group-3.svg"
             />
           </div>
-          <div className="absolute top-[140px] left-[101.18px] text-[34.35px] tracking-[-0.8px] leading-[51.53px] font-space-grotesk">
+          <div className="absolute top-[165px] left-[101.18px] text-[34.35px] tracking-[-0.8px] leading-[51.53px] font-space-grotesk">
             Ripple into Freedom
           </div>
         </div>
         <button className="cursor-pointer [border:none] p-0 bg-white absolute top-[304px] left-[177px] rounded-[19.53px] w-[166px] h-[44.64px] overflow-hidden">
-          <b className="absolute top-[16px] left-[37px] text-[16.86px] tracking-[0.77px] leading-[36.79px] font-space-grotesk text-black text-left">
+          <b className="absolute top-[8px] left-[37px] text-[16.86px] tracking-[0.77px] leading-[36.79px] font-space-grotesk text-black text-left">
             Trade Now
           </b>
         </button>
-        <div className="absolute top-[217px] left-[0px] text-[16.86px] tracking-[0.77px] leading-[22.79px] font-space-grotesk text-center flex items-center justify-center w-[520px]">
+        <div className="absolute top-[237px] left-[0px] text-[16.86px] tracking-[0.77px] leading-[22.79px] font-space-grotesk text-center flex items-center justify-center w-[520px]">
           Trade smarter, faster, and safer with Xelsior DEX, the future of
           decentralized finance on the XRP Ledger.
         </div>
@@ -114,28 +115,28 @@ const LandingPage = () => {
         alt=""
         src="/line-6.svg"
       />
-      <div className="absolute top-[41px] left-[40px] w-[54px] h-[54px] text-left font-space-mono">
+      {/* <div className="absolute top-[41px] left-[40px] w-[54px] h-[54px] text-left font-space-mono">
         <div className="absolute top-[0px] left-[0px] rounded-[50%] bg-white w-[54px] h-[54px]" />
         <div className="absolute top-[9.7px] left-[44.62px] rounded-[50%] bg-white w-[8.73px] h-[8.73px]" />
         <b className="absolute top-[11.64px] left-[11.96px] tracking-[-1.12px] leading-[72.25px]">
           X
         </b>
-      </div>
-      <div className="absolute top-[38px] left-[1297px] rounded-[19.53px] bg-white w-[166px] h-[44.64px] overflow-hidden text-left text-[16.86px] text-black">
-        <b className="absolute top-[16.74px] left-[15.34px] tracking-[0.77px] leading-[36.79px]">
+      </div> */}
+      {/* <div className="absolute top-[38px] left-[1297px] rounded-[19.53px] bg-white w-[166px] h-[44.64px] overflow-hidden text-left text-[16.86px] text-black">
+        <b className="absolute top-[8.74px] left-[15.34px] tracking-[0.77px] leading-[36.79px]">
           Connect Wallet
         </b>
-      </div>
+      </div> */}
       <div className="absolute top-[827px] left-[227px] text-[25.29px] tracking-[1.15px] leading-[55.18px]">
         Exchange any cryptocurrency to any other crypto at a market price in
-        seconds
+        seconds with the security of blockchain
       </div>
-      <b className="absolute top-[145px] left-[477px] text-[60.02px] tracking-[2.73px] leading-[130.96px]">
+      <b className="absolute top-[125px] left-[477px] text-[60.02px] tracking-[2.73px] leading-[130.96px]">
         Swap Your Tokens
       </b>
-      <div className="absolute top-[209px] left-[776px] text-[14.05px] tracking-[0.64px] leading-[30.65px]">
-        <span>{`Powered by Auto-Bridging on `}</span>
-        <b>XRPL</b>
+      <div className="absolute top-[214px] left-[776px] text-[14.05px] tracking-[0.64px] leading-[30.65px]">
+        <span>{`Powered by `}</span>
+        <b>XRP Ledger Network</b>
       </div>
       <img
         className="absolute top-[354px] left-[619px] rounded-[126.48px] w-[274px] h-[274px] overflow-hidden"
@@ -360,8 +361,8 @@ const LandingPage = () => {
           Connect Wallet
         </b>
       </div>
-      <div className="absolute top-[844px] left-[673px] rounded-[19.53px] bg-light-border w-[166px] h-[44.64px] overflow-hidden text-black">
-        <b className="absolute top-[16px] left-[26px] tracking-[0.77px] leading-[36.79px]">
+      <div className="absolute top-[994px] left-[673px] rounded-[19.53px] bg-light-border w-[166px] h-[44.64px] overflow-hidden text-black">
+        <b className="absolute top-[100px] left-[26px] tracking-[0.77px] leading-[36.79px]">
           Start to Earn
         </b>
       </div>
@@ -374,23 +375,23 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="absolute top-[326px] left-[211px] w-[1089px] h-[465px] text-[22.38px]">
-        <div className="absolute top-[0px] left-[0px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden text-right border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[0px] left-[0px] rounded-mid  box-border w-[258px] h-[222px] overflow-hidden text-right rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[159px] w-[90px] h-[37px]">
             <img
               className="absolute top-[0px] right-[53px] w-[37px] h-[37px]"
               alt=""
               src="/protocol-icon.svg"
             />
-            <b className="absolute top-[10.5px] left-[46px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[10.5px] left-[46px] tracking-[1.02px] leading-[22.76px] text-white">
               BTC
             </b>
           </div>
-          <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+          <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-[15.26px] ">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.01%-77%
             </b>
           </div>
           <img
@@ -399,26 +400,26 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[243px] left-[0px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[243px] left-[0px] rounded-mid  box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[159px] w-[90px] h-[37px]">
             <div className="absolute top-[0px] right-[53px] w-[37px] h-[37px]">
-              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-light-border box-border border-[1px] border-solid border-light-border" />
+              <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-light-border box-border border-[1px] border-solid border-light-border bg-white" />
               <img
-                className="absolute h-[19.05%] w-[69.05%] top-[40.48%] right-[14.29%] bottom-[40.48%] left-[16.67%] max-w-full overflow-hidden max-h-full object-cover"
+                className="absolute h-[19.05%] w-[69.05%] top-[40.48%] right-[14.29%] bottom-[40.48%] left-[16.67%] max-w-full overflow-hidden max-h-full object-cover bg-white"
                 alt=""
                 src="/image-27@2x.png"
               />
             </div>
-            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px] text-white">
               XRP
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-right text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.2%-45%
             </b>
           </div>
           <img
@@ -427,23 +428,23 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[0px] left-[277px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[0px] left-[277px] rounded-mid  box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[159px] w-[90px] h-[37px]">
             <img
               className="absolute top-[0px] right-[53px] w-[37px] h-[37px]"
               alt=""
               src="/protocol-icon1.svg"
             />
-            <b className="absolute top-[11px] left-[47px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[11px] left-[47px] tracking-[1.02px] leading-[22.76px] text-white">
               ETH
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-right text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.01%-7.7%
             </b>
           </div>
           <img
@@ -452,23 +453,23 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[243px] left-[277px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[243px] left-[277px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[161px] w-[88px] h-[37px]">
             <img
               className="absolute top-[0px] right-[51px] w-[37px] h-[37px]"
               alt=""
               src="/protocol-icon2.svg"
             />
-            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px] text-white">
               STX
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-right text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.1%- 67%
             </b>
           </div>
           <img
@@ -477,23 +478,23 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[0px] left-[554px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[0px] left-[554px] rounded-mid  box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[144px] w-[105px] h-[37px]">
             <img
               className="absolute top-[0px] right-[68px] rounded-[39px] w-[37px] h-[37px] overflow-hidden"
               alt=""
               src="/frame-6.svg"
             />
-            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px] text-white">
               USDT
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-right text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[159px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.9%-8%
             </b>
           </div>
           <img
@@ -502,23 +503,23 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[0px] left-[831px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[0px] left-[831px] rounded-mid  box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[161px] w-[88px] h-[37px]">
             <img
               className="absolute top-[0px] right-[51px] w-[37px] h-[37px]"
               alt=""
               src="/protocol-icon3.svg"
             />
-            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px] text-white">
               SOL
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-right text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.01%-67%
             </b>
           </div>
           <img
@@ -527,7 +528,7 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[243px] left-[831px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden text-right border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[243px] left-[831px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[153px] w-24 h-[37px]">
             <div className="absolute top-[0px] right-[59px] w-[37px] h-[37px]">
               <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-silver box-border border-[1px] border-solid border-light-border" />
@@ -537,16 +538,16 @@ const LandingPage = () => {
                 src="/image-16@2x.png"
               />
             </div>
-            <b className="absolute top-[11px] left-[57px] tracking-[1.02px] leading-[22.76px]">
+            <b className="absolute top-[11px] left-[57px] tracking-[1.02px] leading-[22.76px] text-white">
               LTC
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.9%-62%
             </b>
           </div>
           <img
@@ -555,7 +556,7 @@ const LandingPage = () => {
             src="/arrow-circle-right.svg"
           />
         </div>
-        <div className="absolute top-[243px] left-[554px] rounded-mid bg-gray-200 box-border w-[258px] h-[222px] overflow-hidden border-[2px] border-solid border-gray-100">
+        <div className="absolute top-[243px] left-[554px] rounded-mid box-border w-[258px] h-[222px] overflow-hidden rounded-lg border border-solid border-white border-opacity-1 bg-black bg-opacity-10 p-4">
           <div className="absolute top-[11px] right-[157px] w-[92px] h-[37px]">
             <div className="absolute top-[0px] right-[55px] w-[37px] h-[37px]">
               <img
@@ -565,16 +566,16 @@ const LandingPage = () => {
               />
               <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] box-border border-[1px] border-solid border-light-border" />
             </div>
-            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px]">
-              BNB
+            <b className="absolute top-[11px] left-[45px] tracking-[1.02px] leading-[22.76px] text-white">
+              BUSD
             </b>
           </div>
           <div className="absolute top-[89px] left-[9px] w-[209px] h-[22.33px] text-right text-[15.26px] text-mediumseagreen">
-            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px]">
+            <b className="absolute top-[11.33px] left-[179px] tracking-[0.69px] leading-[15.52px] text-green-700">
               APR
             </b>
-            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px]">
-              0.01%-0.77
+            <b className="absolute top-[0px] left-[0px] text-[31.75px] tracking-[1.44px] leading-[32.28px] text-green-700">
+              0.31%-71%
             </b>
           </div>
           <img
@@ -593,7 +594,7 @@ const LandingPage = () => {
         alt=""
         src="/group.svg"
       />
-      <div className="absolute top-[41px] left-[40px] w-[54px] h-[54px] font-space-mono">
+      {/* <div className="absolute top-[41px] left-[40px] w-[54px] h-[54px] font-space-mono">
         <img
           className="absolute top-[0px] left-[0px] rounded-[50%] w-[54px] h-[54px] object-cover"
           alt=""
@@ -603,7 +604,7 @@ const LandingPage = () => {
         <b className="absolute top-[11.64px] left-[11.96px] tracking-[-1.12px] leading-[72.25px]">
           X
         </b>
-      </div>
+      </div> */}
       <div className="absolute top-[640px] left-[82px] w-[596px] h-[152px] text-[60.02px]">
         <b className="absolute top-[0px] left-[0px] tracking-[2.73px] leading-[58.96px] flex items-center w-[596px]">
           Subscribe and Discover More!
@@ -615,7 +616,7 @@ const LandingPage = () => {
       <div className="absolute top-[348px] left-[903px] rounded-3xl bg-white w-[461px] h-[286px] overflow-hidden text-base text-gray">
         <div className="absolute top-[40px] left-[23px] w-[416px] h-[205px]">
           <div className="absolute top-[160px] left-[0px] rounded-sm bg-black w-[416px] h-[45px] overflow-hidden text-[16.86px] text-white">
-            <b className="absolute top-[17px] left-[142px] tracking-[0.77px] leading-[36.79px]">
+            <b className="absolute top-[9px] left-[142px] tracking-[0.77px] leading-[36.79px]">
               Subscribe Now
             </b>
           </div>
@@ -624,7 +625,7 @@ const LandingPage = () => {
               <div className="self-stretch relative rounded-t rounded-b-none h-12">
                 <div className="absolute top-[0px] left-[0px] w-[172px] h-12 flex flex-col py-0 px-2.5 box-border items-start justify-center">
                   <div className="flex flex-row items-start justify-start z-[0]">
-                    <div className="relative tracking-[0.5px] leading-[24px]">
+                    <div className="text-gray-100 font-space-grotesk text-base font-small leading-8 tracking-wide">
                       First Name
                     </div>
                   </div>
