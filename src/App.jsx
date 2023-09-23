@@ -5,7 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import { useEffect } from "react";
-import LandingPage from "./pages/LandingPage";
+import LandingPage from "./Pages/LandingPage";
 
 function App() {
   const action = useNavigationType();
