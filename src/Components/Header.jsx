@@ -4,6 +4,7 @@ import logo from "../Images/xelsior-logo.png"
 import background from "../Images/Group2.png"
 import group38 from "../Images/Group38.png"
 import Xelsiorlogo from "../Images/xelsior-moto-logo.png"
+import "../Css/Style.css"
 
 
 
@@ -20,6 +21,14 @@ function Navbar() {
     const handleToggleNav = () => {
         setToggleNav(!toggleNav);
     };
+
+    const handleMouseEnter = () => {
+        setToggleNav(true);
+    };
+
+    const handleMouseLeave = () => {
+        setToggleNav(false);
+    }
     const divStyle = {
         backgroundImage: `url(${background})`,
         backgroundAttachment: 'fixed', // Set background-attachment to fixed
@@ -30,13 +39,13 @@ function Navbar() {
     return (
         <>
             <section >
-                <div style={divStyle} className="w-[100%] h-screen  bg-black text-white ">
-                    <div className=" justify-between bg-black  select-none  box-border lg:flex-nowrap flex-nowrap pr-3  pl-3 sm:pt-20  flex items-center md:pt-10 md:pl-10  md:pr-14 md:justify-between text-slate-50 h-[10%]">
-                        <div className="flex  justify-start flex-nowrap outline-none  items-center pb-1">
+                <div style={divStyle} className="w-[100%] h-screen  border border-black border-solid bg-black text-white ">
+                    <div className=" justify-between bg-black  select-none  box-border lg:flex-nowrap flex-nowrap pr-3  sm:pt-20  flex items-center md:pt-10 md:pl-10  md:pr-14 md:justify-between text-slate-50 h-[10%]">
+                        <div className="flex  justify-start flex-nowrap outline-none  items-center ">
                             <NavLink to="/" className="cursor-pointer outline-none ">
                                 <img
                                     src={logo}
-                                    className="flex-auto h-[175px] outline-none  lg:w-[122px] lg:h-24"
+                                    className="flex-auto h-[105px] outline-none  lg:w-[122px] lg:h-24"
                                     alt="xelsior-logo"
                                 />
                             </NavLink>
@@ -44,10 +53,10 @@ function Navbar() {
                         <button
                             onClick={handleToggleNav}
                             type="button"
-                            className="bg-primary  justify-end inline-flex items-center p-2 mb-2 pl-4 pr-4   rounded-md md:hidden focus:outline-none"
+                            className="bg-white  justify-end inline-flex items-center p-2 mb-2 pl-3 pr-3   rounded-md md:hidden focus:outline-none"
                         >
                             <svg
-                                className="w-8 h-[30px] text-white"
+                                className="w-8 h-[30px] text-black"
                                 aria-hidden="true"
                                 fill="none"
                                 viewBox="0 0 24 24"
@@ -127,14 +136,21 @@ function Navbar() {
                     </div>
 
                     {toggleNav && (
-                        <div className={`md:hidden  dropdown_menu-6 border border-gray-200 flex shadow-lg rounded-lg p-2 m-3  text-start  drop-shadow-lg  mt-12   transition-all  duration-700 ease-in-out`}>
-                            <ul className="flex flex-col items-center  space-x-6 bg-black text-white xl:text-xs md:text-xs 2xl:text-lg md:flex-nowrap md:space-x-8 md:mt-0 md:border-0 md:bg-gray-50 dark:bg-gray-50 md:dark:bg-gray-50  dark:border-gray-700">
-                                <NavLink
-                                    to="/"
-                                    className="  cursor-pointer text-white  no-underline"
-                                >
-                                    Trade
-                                </NavLink>
+                        <div
+                            id="dropdownHover"
+                            className="absolute z-10 divide-y md:mt-10 divide-gray-100 bg-black opacity-75 text-white rounded-lg shadow w-60  transition-all duration-700"
+                            onMouseEnter={handleMouseEnter}
+                            onMouseLeave={handleMouseLeave}
+                        >
+                            <ul className="flex flex-col gap-5 font-space-grotesk text-[18px] font list-none no-underline items-left  md:flex-nowrap md:space-x-10  ">
+                                <li>
+                                    <NavLink
+                                        to="/"
+                                        className="  cursor-pointer text-white  no-underline"
+                                    >
+                                        Trade
+                                    </NavLink>
+                                </li>
 
                                 <li className=" cursor-pointer text-white  no-underline">
                                     <NavLink
@@ -163,8 +179,7 @@ function Navbar() {
                                     </NavLink>
                                 </li>
 
-
-                                <li className=" cursor-pointer text-white   no-underline">
+                                <li className=" cursor-pointer text-white  no-underline">
                                     <NavLink
                                         to="/"
                                         className=" cursor-pointer text-white  no-underline"
@@ -176,20 +191,27 @@ function Navbar() {
                             </ul>
                         </div>
                     )}
-                    <div className="w-[94%] ml-24 flex items-center  justify-between h-[89%] ">
-                        <div className="w-[40%] h-[100%] flex flex-col items-center justify-center text-white">
-                            <div className="flex flex-col gap-10 ">
+                    <div className="w-[94%] lg:ml-24 ml-16 mr-10 flex items-center  justify-between h-[89%] ">
+                        <div className="w-[40%] h-[100%] flex flex-col items-center mb-32 md:mb-0 justify-center text-white">
+                            <div className="flex flex-col gap-5 lg:gap-10 ">
                                 <div className="w-[100%] flex items-center justify-center h-[30%] ">
-                                    <img src={Xelsiorlogo} alt="Xelsior-logo" className="w-[488px] h-[164px]" />
+                                    <img src={Xelsiorlogo} alt="Xelsior-logo" className="lg:w-[488px] w-[250px] md:w-[350px]   lg:h-[164px]" />
                                 </div>
-                                <div className="font-space-grotesk select-none leading-3 text-[16px]">
-                                    <p className="text-center ">Trade smarter, faster, and safer with [Your DEX Name], the</p>
-                                    <p className="text-center "> future of decentralized finance on the XRP Ledger.</p>
+                                <div className="flex flex-col items-center justify-center lg:gap-4">
+                                    <div className="font-space-grotesk select-none lg:leading-3 text-[10px] md:text-[16px] lg:text-[16px]">
+                                        <p className="text-center ">Trade smarter, faster, and safer with [Your DEX Name], the</p>
+                                        <p className="text-center "> future of decentralized finance on the XRP Ledger.</p>
+                                    </div>
+                                    <div className='flex  items-center justify-center' >
+                                        <button className=' lg:text-[16.86px] md:text-[16px] font-space-grotesk lg:px-6 md:px-5 px-3 py-2 rounded-full cursor-pointer font-bold'>
+                                            Trade Now
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="w-[60%] h-[100%]  text-white ">
-                            <img src={group38} alt="xelsior" className="w-[100%] h-[100%]" />
+                            <img src={group38} alt="xelsior" className="w-[100%]  h-[100%]" />
                         </div>
                     </div>
                 </div>

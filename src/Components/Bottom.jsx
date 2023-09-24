@@ -84,9 +84,9 @@ function Bottom() {
 
     return (
         <section>
-            <div style={divStyle} className="w-[100%] h-screen flex flex-col items-center justify-center pt-10  bg-black text-white ">
-                <div className=' leading-8 text-[65.02px] font-space-grotesk '>Earn Daily Rewards
-                    <p className='text-[21px] leading-6 text-center text-[#FFFFFF]'> A simple and secure way to earn daily reward on popular<br></br><span className='text-center'>tokens </span></p>
+            <div style={divStyle} className="w-[100%] lg:h-screen flex flex-col items-center justify-center pt-5 pb-5 lg:pt-10  border border-black border-solid bg-black text-white ">
+                <div className=' leading-8 text-center text-[30px] lg:text-[65.02px] font-space-grotesk '>Earn Daily Rewards
+                    <p className='lg:text-[21px] text-[10px] leading-5 lg:leading-6 text-center text-[#FFFFFF]'> A simple and secure way to earn daily reward on popular<br></br><span className='text-center'>tokens </span></p>
                 </div>
                 <div className='flex h-[60%]  w-[70%] '>
                     <div className='flex flex-wrap justify-evenly gap-3 items-center w-[100%] h-[100%] '>
@@ -106,7 +106,7 @@ function Bottom() {
                         }
                     </div>
                 </div>
-                <div className='mt-6' >
+                <div className='mt-6 ' >
                     <button className=' text-[16.86px] font-space-grotesk px-6 py-3 rounded-full cursor-pointer font-bold'>
                         Start to Earn
                     </button>
