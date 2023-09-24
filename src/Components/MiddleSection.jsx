@@ -43,26 +43,26 @@ function MiddleSection() {
 
     const data = [
         {
-            text: '0.01%-0.77 ',
-            textSec: 'APR',
+            text: 'Swap Hassle-Free',
+            title: ' Say goodbye to the hassle of manually swapping one crypto for another. Xelsior automates the process, providing you with near-instant conversions.',
             img: group39,
 
         },
         {
-            text: '0.01%-0.77 ',
-            textSec: 'APR',
+            text: 'Earn Effortlessly',
+            title: ' Earn passive income effortlessly with our staking and yield farming options. Maximize your crypto holdings by putting them to work for you.',
             img: group46,
 
         },
         {
-            text: '0.01%-0.77 ',
-            textSec: 'APR',
+            text: 'Worlds first decentralized P2P powered by XRPL',
+            title: ' Find the best deals and execute transactions securely. Whether you are looking to buy or sell, our intuitive interface makes P2P trading a breeze.',
             img: group22,
 
         },
         {
-            text: '0.01%-0.77 ',
-            textSec: 'APR',
+            text: 'Stake It Up!',
+            title: ' Grow your crypto holdings with ease through our staking feature. Earn rewards by participating in network validation and supporting the XRPL ledger.',
             img: group44,
 
         },
@@ -89,21 +89,44 @@ function MiddleSection() {
                 </div>
             </section>
             <section >
-                <div style={divStyle1} className="w-[100%] h-screen z-10  border border-black border-solid flex  items-center justify-around    bg-black text-white ">
-                    <div className='border border-white flex flex-col items-center justify-evenly border-solid lg:h-[70%] w-[20%] rounded-lg'>
-                        <div className='w-[100%] flex items-center justify-center'>
-                            <p className='lg:text-[29.51px] text-center text-[12px] font-space-grotesk'>Swap Hassle-Free</p>
+                <div style={divStyle1} className="w-[100%] pt-3 pb-3 lg:pt-0 lg:pb-0 lg:h-screen z-10 gap-2 lg:gap-0 border border-black border-solid flex flex-wrap  items-center justify-center lg:justify-around   bg-black text-white ">
+
+                    {data.map((item, index) => (
+
+                        <div key={index} className='border border-white flex flex-col items-center justify-center lg:justify-evenly border-solid lg:h-[70%] h-[50%] w-[35%] lg:w-[20%] rounded-lg'>
+                            <div className='w-[100%] flex items-center justify-center'>
+                                {item.text === 'Worlds first decentralized P2P powered by XRPL' ? (
+                                    <p className='lg:text-[20.51px] text-center text-[12px] font-space-grotesk'>
+                                        {item.text}
+                                    </p>) :
+                                    (<p className='lg:text-[29.51px] text-center text-[12px] font-space-grotesk'>
+                                        {item.text}
+                                    </p>)
+                                }
+                            </div>
+                            <div className='w-[100px] h-[170px] lg:w-[100%] lg:h-[70%] flex items-center justify-center'>
+                                {item.img === group46 ? (
+                                    <img src={item.img} className='w-[100%] h-[100%] ' alt="" />
+                                ) : (
+                                    <img src={item.img} className='w-[100%] h-[100%]' alt="" />
+                                )}
+
+                            </div>
+                            <div className='w-[100%] flex items-center justify-center '>
+                                {item.text === 'Worlds first decentralized P2P powered by XRPL' ? (
+                                    <p className='p-2 text-justify font-space-grotesk text-[10px]'>
+                                        {item.title}
+                                    </p>) :
+                                    (<p className='p-2 text-justify font-space-grotesk text-[11px]'>
+                                        {item.title}
+                                    </p>)
+                                }
+
+
+                            </div>
                         </div>
-                        <div className='w-[100px] h-[170px] lg:w-[100%] lg:h-[70%] flex items-center justify-center'>
-                            <img src={group39} className='md:w-[100%] md:h-[100%] w-[80px]' alt="" />
-                        </div>
-                        <div className='w-[100%] flex items-center justify-center '>
-                            <p className='p-2 text-justify font-space-grotesk text-[10px]'>
-                                Say goodbye to the hassle of manually swapping one crypto for another. Xelsior automates the process, providing you with near-instant conversions.
-                            </p>
-                        </div>
-                    </div>
-                    <div className='border border-white flex flex-col items-center justify-evenly border-solid lg:h-[70%] w-[20%] rounded-lg'>
+                    ))}
+                    {/* <div className='border border-white flex flex-col items-center justify-evenly border-solid lg:h-[70%] w-[20%] rounded-lg'>
                         <div className='w-[100%] flex items-center justify-center'>
                             <p className='lg:text-[29.51px] text-[12px] text-center font-space-grotesk'>Earn Effortlessly</p>
                         </div>
@@ -141,7 +164,7 @@ function MiddleSection() {
                                 Grow your crypto holdings with ease through our staking feature. Earn rewards by participating in network validation and supporting the XRPL ledger.
                             </p>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </section>
