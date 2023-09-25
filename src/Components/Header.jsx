@@ -118,6 +118,22 @@ function Navbar() {
                                         Earn
                                     </NavLink>
                                 </li>
+                                     <li className=" cursor-pointer text-white  no-underline">
+                                    <NavLink
+                                        to="/"
+                                        className=" cursor-pointer text-white  no-underline"
+                                    >
+                                        Fiat
+                                    </NavLink>
+                                </li>
+                                   <li className=" cursor-pointer text-white  no-underline">
+                                    <NavLink
+                                        to="/"
+                                        className=" cursor-pointer text-white  no-underline"
+                                    >
+                                        CDBC
+                                    </NavLink>
+                                </li>
 
                             </ul>
                         </div>
