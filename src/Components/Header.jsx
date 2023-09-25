@@ -203,7 +203,7 @@ function Navbar() {
                                         Earn
                                     </NavLink>
                                 </li>
-                                   </li>
+                                
                                 
 
                             </ul>
