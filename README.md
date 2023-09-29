@@ -74,23 +74,23 @@ Before getting started, ensure you have the following prerequisites:
 
 5. Access the application at http://localhost:3000 in your web browser.
 
-Frontend
+## Frontend
 Frontend README.md contains detailed information about the frontend part of Xelsior DEX.
 
-Backend
+## Backend
 Backend README.md contains detailed information about the backend part of Xelsior DEX.
 
-Crypto Exchange Engine
+## Crypto Exchange Engine
 Crypto Exchange Engine README.md contains detailed information about the crypto exchange engine used in Xelsior DEX.
 
-Usage
+## Usage
 Provide instructions and examples for users and developers on how to use Xelsior DEX for trading and liquidity provision.
 
-Architecture
+## Architecture
 Explain the architecture of Xelsior DEX, detailing how the frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
 
-Contributing
+## Contributing
 We welcome contributions from the community. Please refer to our Contributing Guidelines for more information on how to contribute to Xelsior DEX.
 
-License
+## License
 This project is licensed under the MIT License.
