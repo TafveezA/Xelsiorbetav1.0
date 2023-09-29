@@ -37,7 +37,7 @@ Xelsior DEX is a decentralized exchange platform that empowers users to trade va
 
 ## Demo
 
-Explore a live demo of Xelsior DEX at [https://xelsior.co](https://xelsiordexv1-0-git-main-tafveezahmad.vercel.app/).
+Explore a live demo of Xelsior DEX at [https://xelsior.co](https://xelsiorbetav1-0.vercel.app/).
 
 ## Getting Started
 
