@@ -1,14 +1,10 @@
 # Xelsior DEX
 
-<<<<<<< HEAD
-Xelsior DEX is a decentralized cryptocurrency exchange platform that empowers users to trade various digital assets securely and efficiently. This repository contains the codebase for Xelsior DEX, which includes the frontend, backend, and the crypto exchange engine.
+
 
 ![Xelsior DEX Logo](xelsior-moto-logo.png)
-=======
 Xelsior DEX is a decentralized exchange platform that empowers users to trade various digital assets securely and efficiently on the top of XRPL ledger. This repository contains the codebase for Xelsior DEX, which includes the frontend, backend, and the crypto exchange engine.
 
-![Xelsior DEX Logo](https://drive.google.com/file/d/1ilgG6QxBqK5VpHrx5s2ArU1ne2-2C0Wm/view?usp=sharing)
->>>>>>> af862784b3749f8e7876b9e80fcf2d24602521d8
 
 ## Table of Contents
 
@@ -41,7 +37,7 @@ Xelsior DEX is a decentralized exchange platform that empowers users to trade va
 
 ## Demo
 
-Explore a live demo of Xelsior DEX at [https://example.com](https://example.com).
+Explore a live demo of Xelsior DEX at [https://xelsior.co](https://xelsiorbetav1-0.vercel.app/).
 
 ## Getting Started
 
@@ -90,17 +86,13 @@ Backend README.md contains detailed information about the backend part of Xelsio
 Crypto Exchange Engine README.md contains detailed information about the crypto exchange engine used in Xelsior DEX.
 
 ## Usage
-<<<<<<< HEAD
 Provide instructions and examples for users and developers on how to use Xelsior DEX for trading and liquidity provision.
 
 ## Architecture
-Explain the architecture of Xelsior DEX, detailing how the frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
-=======
 Usage intructions will be released soon.
 
 ## Architecture
  The frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
->>>>>>> af862784b3749f8e7876b9e80fcf2d24602521d8
 
 ## Contributing
 We welcome contributions from the community. Please refer to our Contributing Guidelines for more information on how to contribute to Xelsior DEX.
