@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { useEffect } from "react";
 import LandingPage from "./Pages/LandingPage";
+import XummWallet from "./Components/XummWallet";
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +47,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
+      {/* <Route path="/xumm" element={<XummWallet />} /> */}
+
     </Routes>
   );
 }
