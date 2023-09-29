@@ -1,14 +1,10 @@
 # Xelsior DEX
 
-<<<<<<< HEAD
-Xelsior DEX is a decentralized cryptocurrency exchange platform that empowers users to trade various digital assets securely and efficiently. This repository contains the codebase for Xelsior DEX, which includes the frontend, backend, and the crypto exchange engine.
+
 
 ![Xelsior DEX Logo](xelsior-moto-logo.png)
-=======
 Xelsior DEX is a decentralized exchange platform that empowers users to trade various digital assets securely and efficiently on the top of XRPL ledger. This repository contains the codebase for Xelsior DEX, which includes the frontend, backend, and the crypto exchange engine.
 
-![Xelsior DEX Logo](https://drive.google.com/file/d/1ilgG6QxBqK5VpHrx5s2ArU1ne2-2C0Wm/view?usp=sharing)
->>>>>>> af862784b3749f8e7876b9e80fcf2d24602521d8
 
 ## Table of Contents
 
