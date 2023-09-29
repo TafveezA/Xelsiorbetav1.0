@@ -1,0 +1,28 @@
+.dropdown_menu-6 {
+  animation: growOut 500ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growOut {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* You can adjust the width as needed */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  color: white;
+  background-color: black; /* Change the background color */
+  border-radius: 5px; /* Add some rounded corners */
+}

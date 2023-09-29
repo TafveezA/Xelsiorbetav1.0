@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ec0e13c.css",
+    "main.js": "/static/js/main.436ac804.js",
+    "static/media/Group38.png": "/static/media/Group38.487b568627b5a65dcc6f.png",
+    "static/media/Group44.png": "/static/media/Group44.71b24a80774c98355581.png",
+    "static/media/Group2.png": "/static/media/Group2.01b90bf19bbabb9b7130.png",
+    "static/media/Group.png": "/static/media/Group.b9722e0f320aa5b9553f.png",
+    "static/media/Group37.png": "/static/media/Group37.ac6313b7d4e79e73e5ef.png",
+    "static/media/Group39.png": "/static/media/Group39.5867728a20645d65d8da.png",
+    "static/media/Line6.png": "/static/media/Line6.784f6ae4d1daac5e506e.png",
+    "static/media/Group46.png": "/static/media/Group46.246dfd08dcb59c5f862e.png",
+    "static/media/Group3.png": "/static/media/Group3.12465e0b7dd9f26c4787.png",
+    "static/media/Group22.png": "/static/media/Group22.ac62ea637722c1091ca6.png",
+    "static/media/Group4.png": "/static/media/Group4.74c89001007f361a1289.png",
+    "static/media/xelsior-moto-logo.png": "/static/media/xelsior-moto-logo.04e11b34dbf63a36d6fa.png",
+    "static/media/Frame53.png": "/static/media/Frame53.df267880f7a53fe63d95.png",
+    "static/media/Frame6.png": "/static/media/Frame6.75c631d905e95daa0460.png",
+    "static/media/ProtocolIcon.png": "/static/media/ProtocolIcon.347050692ee06becb940.png",
+    "index.html": "/index.html",
+    "main.6ec0e13c.css.map": "/static/css/main.6ec0e13c.css.map",
+    "main.436ac804.js.map": "/static/js/main.436ac804.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec0e13c.css",
+    "static/js/main.436ac804.js"
+  ]
+}
