@@ -21,28 +21,28 @@ function Bottom() {
     };
     const data = [
         {
-            text: '0.01%-0.77 ',
+            text: '3.01%-6.82% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: Bit,
             title: 'BTC'
         },
         {
-            text: '0.01%-0.77 ',
+            text: '6.01%-9.77% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: ETH,
-            title: 'ETC'
+            title: 'ETH'
         },
         {
-            text: '0.01%-0.77 ',
+            text: '2.01%-4.77% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: USDT,
             title: 'USDT'
         },
         {
-            text: '0.01%-0.77 ',
+            text: '5.01%-8.77% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: SOL,
@@ -50,29 +50,29 @@ function Bottom() {
         },
 
         {
-            text: '0.01%-0.77 ',
+            text: '4%-6.7% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: LTC,
             title: 'LTC'
         },
         {
-            text: '0.01%-0.77 ',
+            text: '0.81%-7% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: STX,
             title: 'STX'
         },
         {
-            text: '0.01%-0.77 ',
+            text: '0.01%-0.77%',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: BNB,
-            title: 'BNB'
+            title: 'BUSD'
         },
 
         {
-            text: '0.01%-0.77 ',
+            text: '1.7%- 8.77% ',
             textSec: 'APR',
             icon: <FiArrowRightCircle size={34} className='cursor-pointer' />,
             img: XRP,

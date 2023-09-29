@@ -101,14 +101,14 @@ function Navbar() {
                                         P2P
                                     </NavLink>
                                 </li>
-                                <li className=" cursor-pointer text-white  no-underline">
+                                {/* <li className=" cursor-pointer text-white  no-underline">
                                     <NavLink
                                         to="/"
                                         className=" cursor-pointer text-white  no-underline"
                                     >
                                         Staking
                                     </NavLink>
-                                </li>
+                                </li> */}
 
                                 <li className=" cursor-pointer text-white  no-underline">
                                     <NavLink
@@ -217,7 +217,7 @@ function Navbar() {
                                 </div>
                                 <div className="flex flex-col items-center justify-center lg:gap-4">
                                     <div className="font-space-grotesk select-none lg:leading-3 text-[10px] md:text-[16px] lg:text-[16px]">
-                                        <p className="text-center ">Trade smarter, faster, and safer with [Your DEX Name], the</p>
+                                        <p className="text-center ">Trade smarter, faster, and safer with Xelsior DEX, the</p>
                                         <p className="text-center "> future of decentralized finance on the XRP Ledger.</p>
                                     </div>
                                     <div className='flex  items-center justify-center' >
