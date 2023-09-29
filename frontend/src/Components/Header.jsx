@@ -4,6 +4,8 @@ import logo from "../Images/xelsior-logo.png"
 import background from "../Images/Group2.png"
 import group38 from "../Images/Group38.png"
 import Xelsiorlogo from "../Images/xelsior-moto-logo.png"
+import Modal from "./Modal";
+import QR_Xumm from "./QR_Xumm";
 import "../Css/Style.css"
 
 
@@ -17,6 +19,7 @@ function Navbar() {
 
 
     const [toggleNav, setToggleNav] = useState(false);
+    const [show_connect_modal, setShowConnectModal] = React.useState(false);
 
     const handleToggleNav = () => {
         setToggleNav(!toggleNav);
@@ -36,8 +39,12 @@ function Navbar() {
 
     };
 
+
     return (
         <>
+                        <Modal is_open={show_connect_modal}>
+                    <QR_Xumm />
+                </Modal>
             <section >
                 <div style={divStyle} className="w-[100%] h-screen  border border-black border-solid bg-black text-white ">
                     <div className=" justify-between bg-black  select-none  box-border lg:flex-nowrap flex-nowrap pr-3  sm:pt-20  flex items-center md:pt-10 md:pl-10  md:pr-14 md:justify-between text-slate-50 h-[10%]">
@@ -140,14 +147,15 @@ function Navbar() {
 
 
                         <div className="hidden select-none w-full md:block md:w-auto">
-                            <NavLink
+                            <button
+                            onClick={() => {setShowConnectModal(!show_connect_modal)}}
                                 to="/"
                                 className="relative bg-white no-underline font-space-grotesk font-bold  flex items-center justify-center py-4 px-6   text-black  rounded-3xl "
                             >
                                 <span className="text-[18px]  ">
                                     Connect Wallet
                                 </span>
-                            </NavLink>
+                            </button>
                         </div>
                     </div>
 
