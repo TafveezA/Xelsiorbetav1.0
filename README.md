@@ -87,7 +87,7 @@ Crypto Exchange Engine README.md contains detailed information about the crypto 
 Usage intructions will be released soon.
 
 ## Architecture
-Explain the architecture of Xelsior DEX, detailing how the frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
+ The frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
 
 ## Contributing
 We welcome contributions from the community. Please refer to our Contributing Guidelines for more information on how to contribute to Xelsior DEX.
