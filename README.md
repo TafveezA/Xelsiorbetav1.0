@@ -86,17 +86,13 @@ Backend README.md contains detailed information about the backend part of Xelsio
 Crypto Exchange Engine README.md contains detailed information about the crypto exchange engine used in Xelsior DEX.
 
 ## Usage
-<<<<<<< HEAD
 Provide instructions and examples for users and developers on how to use Xelsior DEX for trading and liquidity provision.
 
 ## Architecture
-Explain the architecture of Xelsior DEX, detailing how the frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
-=======
 Usage intructions will be released soon.
 
 ## Architecture
  The frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
->>>>>>> af862784b3749f8e7876b9e80fcf2d24602521d8
 
 ## Contributing
 We welcome contributions from the community. Please refer to our Contributing Guidelines for more information on how to contribute to Xelsior DEX.
