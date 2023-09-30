@@ -1,7 +1,7 @@
 const express = require('express')
 const {connectToXRPL, configColdAddress, configHotAddress, createTrustLine, sendToken, confirmBalance, tradeProduct,
      placeOffer, mintCertificate, getNFTCertificate, burnNFTCertificate, createNFTSellOffer, createNFTBuyOffer, 
-     cancleOffer, getOffers, acceptSellOffer, acceptBuyOffer, issueToken, autoBridging, escrow} = require('../controllers/xrp')
+     cancleOffer, getOffers, acceptSellOffer, acceptBuyOffer, issueToken, autoBridging, escrow} = require('../controllers/xrplapi')
 
 const router = express.Router()
 
