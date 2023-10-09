@@ -8,9 +8,11 @@ const PORT = process.env.PORT ||5000
 const NODE_ENV =process.env.NODE_ENV
 
 const xrplRoutes = require('./routes/xrplapiroutes')
-app.use('/api/v1/xrp/',xrplRoutes)
+app.use('/api/v1/xrpl/',xrplRoutes)
+const priceRoutes = require('./routes/price')
+app.use('/api/v1/price/',priceRoutes)
 
-app.get("/", function (req, res) {
+app. get("/", function (req, res) {
   res.send("Hello XRPL!");
 });
 
