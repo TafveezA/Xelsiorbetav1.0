@@ -91,8 +91,7 @@ Provide instructions and examples for users and developers on how to use Xelsior
 ## Architecture
 Usage intructions will be released soon.
 
-## Architecture
- The frontend, backend, and crypto exchange engine work together to create a seamless trading experience.
+
 
 ## Contributing
 We welcome contributions from the community. Please refer to our Contributing Guidelines for more information on how to contribute to Xelsior DEX.
