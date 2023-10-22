@@ -349,9 +349,9 @@ exports.issueToken =asyncHandler(async(req,res,next)=>{
   }
   res.json(result)
 })
-// trade of products on dex way by creating orderbooks
-exports.tradeProduct = asyncHandler(async(req,res,next)=>{
-// Check balances ------------------------------------------------------------
+// trade of tokens on dex way by creating orderbooks
+exports.trade = asyncHandler(async(req,res,next)=>{
+
 
   await client.connect() 
   const walletIssuer = xrpl.Wallet.fromSeed(process.env.HOT_SECRET)
@@ -534,7 +534,7 @@ client.disconnect()
 
 // mint product NFT on XRPL
 
-exports.mintCertificate = asyncHandler(async (req, res, next) => {
+exports.mintNFT = asyncHandler(async (req, res, next) => {
    
 
       const { tokenUrl, flags, transferFee } = req.body;
@@ -586,7 +586,7 @@ exports.mintCertificate = asyncHandler(async (req, res, next) => {
 
 // get product NFT on XRPL
 
-exports.getNFTCertificate = asyncHandler(async (req, res, next) => {
+exports.getNFT= asyncHandler(async (req, res, next) => {
   try {
    
     await client.connect();
@@ -604,7 +604,7 @@ exports.getNFTCertificate = asyncHandler(async (req, res, next) => {
 });
 
 
-exports.burnNFTCertificate = asyncHandler(async(req,res,next)=>{
+exports.burnNFT= asyncHandler(async(req,res,next)=>{
   const standby_wallet = Wallet.fromSeed(process.env.COLD_SECRET)
   const { nfttokenid } = req.body;
   await client.connect()
@@ -977,7 +977,9 @@ client.disconnect()
 
 })
 
-exports.escrow =asyncHandler(async(req,res,next)=>{
+
+// this API will be used ti facilate the P2P order 
+exports.createEscrow =asyncHandler(async(req,res,next)=>{
   const {amount,cancelafter,finishafter,prevtransactionid,condition} = req.body
   await client.connect(process.env.CLIENT)
   const escrow_wallet = Wallet.fromSeed(process.env.NEW_COLD_SECRET)

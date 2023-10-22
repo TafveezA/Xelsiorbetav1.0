@@ -1,7 +1,7 @@
 const express = require('express')
-const {connectToXRPL, configColdAddress, configHotAddress, createTrustLine, sendToken, confirmBalance, tradeProduct,
-     placeOffer, mintCertificate, getNFTCertificate, burnNFTCertificate, createNFTSellOffer, createNFTBuyOffer, 
-     cancleOffer, getOffers, acceptSellOffer, acceptBuyOffer, issueToken, autoBridging, escrow} = require('../controllers/xrplapi')
+const {connectToXRPL, configColdAddress, configHotAddress, createTrustLine, sendToken, confirmBalance, trade,
+     placeOffer, mintNFT, getNFT, burnNFT, createNFTSellOffer, createNFTBuyOffer, 
+     cancleOffer, getOffers, acceptSellOffer, acceptBuyOffer, issueToken, autoBridging, createEscrow} = require('../controllers/xrplapi')
 
 const router = express.Router()
 
@@ -13,16 +13,16 @@ router.route('/issuetoken').get(issueToken)
 router.route('/sendtoken').get(sendToken)
 router.route('/checkbalance').get(confirmBalance)
 //lookup offers
-router.route('/tradeproduct').get(tradeProduct)
+router.route('/trade').get(trade)
 
 //place offers
 router.route('/placeoffer').get(placeOffer)
 // mint a NFT
-router.route('/mint').post(mintCertificate)
+router.route('/mint').post(mintNFT)
 //get aNFT
-router.route('/getnfts').get(getNFTCertificate)
+router.route('/getnfts').get(getNFT)
 //burn NFT
-router.route('/burn').post(burnNFTCertificate)
+router.route('/burn').post(burnNFT)
 router.route('/autobridging').get(autoBridging)
 //create NFT sell offer
 router.route('/nftselloffer').post(createNFTSellOffer)
@@ -37,6 +37,6 @@ router.route('/canceloffer').post(cancleOffer)
  //acceptbuyoffer -check
  router.route('/acceptbuyoffer').post(acceptBuyOffer)
  //created escrow 
- router.route('/createescrow').post(escrow)
+ router.route('/createescrow').post(createEscrow)
 
 module.exports = router;

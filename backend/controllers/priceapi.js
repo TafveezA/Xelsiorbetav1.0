@@ -4,7 +4,7 @@ const dotenv = require('dotenv')
 
 dotenv.config({path:'../config/config.env'})
 
-
+// this api will return the current price of token
 exports.tokenPrice = asyncHandler(async(req,res,next)=>{
        //await client.connect()
        const {price,symbol} = req.body
