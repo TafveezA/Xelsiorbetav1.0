@@ -7,6 +7,7 @@ import {
 import { useEffect } from "react";
 import LandingPage from "./Pages/LandingPage";
 import XummWallet from "./Components/XummWallet";
+import P2P from "./Pages/P2P";
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +48,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
+      <Route path="/p2p" element={<P2P />} />
       {/* <Route path="/xumm" element={<XummWallet />} /> */}
 
     </Routes>
