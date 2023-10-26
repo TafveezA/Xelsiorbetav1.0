@@ -1,0 +1,1 @@
+export { default as P2PCurrencySelector } from './P2PCurrencySelector';
