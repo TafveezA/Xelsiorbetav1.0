@@ -3,10 +3,11 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../Images/xelsior-logo.png"
 import background from "../Images/Group2.png"
 import group38 from "../Images/Group38.png"
-import Xelsiorlogo from "../Images/xelsior-moto-logo.png"
+import Xelsiorlogo from "./XelLogoMoto"
 import Modal from "./Modal";
 import QR_Xumm from "./QR_Xumm";
 import "../Css/Style.css"
+import Logo from "./Logo";
 
 
 
@@ -50,11 +51,7 @@ function Navbar() {
                     <div className=" justify-between bg-black  select-none  box-border lg:flex-nowrap flex-nowrap pr-3  sm:pt-20  flex items-center md:pt-10 md:pl-10  md:pr-14 md:justify-between text-slate-50 h-[10%]">
                         <div className="flex  justify-start flex-nowrap outline-none  items-center ">
                             <NavLink to="/" className="cursor-pointer outline-none ">
-                                <img
-                                    src={logo}
-                                    className="flex-auto h-[105px] outline-none  lg:w-[122px] lg:h-24"
-                                    alt="xelsior-logo"
-                                />
+                                <Logo />
                             </NavLink>
                         </div>
                         <button
@@ -102,8 +99,8 @@ function Navbar() {
 
                                 <li className=" cursor-pointer text-white  no-underline">
                                     <NavLink
-                                        to="/"
-                                        className=" cursor-pointer text-white  no-underline"
+                                        to="https://xelsior-app.vercel.app/"
+                                        className=" cursor-pointer text-white  no-underline hover:text-black hover:bg-white p-2 rounded-[15px]"
                                     >
                                         P2P
                                     </NavLink>
@@ -221,7 +218,9 @@ function Navbar() {
                         <div className="w-[40%] h-[100%] flex flex-col items-center mb-32 md:mb-0 justify-center text-white">
                             <div className="flex flex-col gap-5 lg:gap-10 ">
                                 <div className="w-[100%] flex items-center justify-center h-[30%] ">
-                                    <img src={Xelsiorlogo} alt="Xelsior-logo" className="lg:w-[488px] w-[250px] md:w-[350px]   lg:h-[164px]" />
+                                    {/* <img src={Xelsiorlogo} alt="Xelsior-logo" className="lg:w-[488px] w-[250px] md:w-[350px]   lg:h-[164px]" />
+                                     */}
+                                    <Xelsiorlogo/>
                                 </div>
                                 <div className="flex flex-col items-center justify-center lg:gap-4">
                                     <div className="font-space-grotesk select-none lg:leading-3 text-[10px] md:text-[16px] lg:text-[16px]">
