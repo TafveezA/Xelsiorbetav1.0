@@ -7,7 +7,8 @@ import {
 import { useEffect } from "react";
 import LandingPage from "./Pages/LandingPage";
 import XummWallet from "./Components/XummWallet";
-import P2P from "./Pages/P2P";
+// import P2P from "./Pages/P2P";
+import P2P from "./P2P/P2P.jsx";
 
 function App() {
   const action = useNavigationType();
