@@ -1,1 +1,0 @@
-export { default as P2PModule } from './P2P';
